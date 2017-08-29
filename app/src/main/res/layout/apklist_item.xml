@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/appname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:textSize="15sp"
+    android:text="App Name"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ram"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/battery"
+        android:padding="12dp"
+        android:textSize="10sp"
+        android:text="RAM"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/battery"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/data"
+        android:padding="12dp"
+        android:textSize="10sp"
+        android:text="Battery"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/data"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:padding="12dp"
+        android:textSize="10sp"
+        android:text="Data"/>
+
+</RelativeLayout>
